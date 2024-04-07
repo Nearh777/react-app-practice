@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nearh777.github.io/react-app-practice/static/css/main.7acaea2f.css",
-    "main.js": "/Nearh777.github.io/react-app-practice/static/js/main.7d0c0660.js",
+    "main.css": "/Nearh777.github.io/react-app-practice/static/css/main.473a4830.css",
+    "main.js": "/Nearh777.github.io/react-app-practice/static/js/main.0a245cd0.js",
     "index.html": "/Nearh777.github.io/react-app-practice/index.html",
-    "main.7acaea2f.css.map": "/Nearh777.github.io/react-app-practice/static/css/main.7acaea2f.css.map",
-    "main.7d0c0660.js.map": "/Nearh777.github.io/react-app-practice/static/js/main.7d0c0660.js.map"
+    "main.473a4830.css.map": "/Nearh777.github.io/react-app-practice/static/css/main.473a4830.css.map",
+    "main.0a245cd0.js.map": "/Nearh777.github.io/react-app-practice/static/js/main.0a245cd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.7d0c0660.js"
+    "static/css/main.473a4830.css",
+    "static/js/main.0a245cd0.js"
   ]
 }
