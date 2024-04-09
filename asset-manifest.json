@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Nearh777.github.io/react-app-practice/static/css/main.473a4830.css",
-    "main.js": "/Nearh777.github.io/react-app-practice/static/js/main.74145436.js",
+    "main.js": "/Nearh777.github.io/react-app-practice/static/js/main.2f165b82.js",
     "index.html": "/Nearh777.github.io/react-app-practice/index.html",
     "main.473a4830.css.map": "/Nearh777.github.io/react-app-practice/static/css/main.473a4830.css.map",
-    "main.74145436.js.map": "/Nearh777.github.io/react-app-practice/static/js/main.74145436.js.map"
+    "main.2f165b82.js.map": "/Nearh777.github.io/react-app-practice/static/js/main.2f165b82.js.map"
   },
   "entrypoints": [
     "static/css/main.473a4830.css",
-    "static/js/main.74145436.js"
+    "static/js/main.2f165b82.js"
   ]
 }
