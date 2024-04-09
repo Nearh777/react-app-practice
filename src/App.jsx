@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <div>
       <Profile 
-        username={users.username}
+        userName={users.username}
         tag={users.tag}
         location={users.location}
         avatar={users.avatar}
