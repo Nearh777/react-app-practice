@@ -20,7 +20,7 @@ export const App = () => {
       />
       <Statistics
       
-        title={data.title}
+        // title={data.title}
         stats={data}
       />
     </div>
