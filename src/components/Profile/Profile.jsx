@@ -1,39 +1,47 @@
 import PropTypes from 'prop-types';
-import css from './Profile.module.css';
+// import css from './Profile.module.css';
+import {
+  ProfileContainer,
+  ProfileImage,
+  ProfileInfo,
+  ProfileName,
+  ProfileTag,
+  ProfileLocation,
+  ProfileStats,
+  ProfileStatsLabel,
+  ProfileStatsQuantity,
+} from './Profile.styled';
 
+export function Profile({
+  userName,
+  tag,
+  location,
+  avatar,
+  followers,
+  views,
+  likes,
+}) {
+  return (
+    <ProfileContainer>
+      <ProfileInfo>
+        <ProfileImage src={avatar} alt={userName} />
+        <ProfileName>{userName}</ProfileName>
+        <ProfileTag>@{tag}</ProfileTag>
+        <ProfileLocation>{location}</ProfileLocation>
+      </ProfileInfo>
 
+      <ProfileStats>
+        <ProfileStatsLabel>Followers: </ProfileStatsLabel>
+        <ProfileStatsQuantity>{followers}</ProfileStatsQuantity>
 
+        <ProfileStatsLabel>Views: </ProfileStatsLabel>
+        <ProfileStatsQuantity>{views}</ProfileStatsQuantity>
 
-export function Profile ({userName, tag, location, avatar, followers, views, likes}) {
-return (
-    <div className={css.profile}>
-  <div className={css.description}>
-    <img
-      src={avatar}
-      alt={userName}
-    className={css.avatar}
-    />
-    <p className={css.name}>{userName}</p>
-<p className={css.tag}>@{tag}</p>
-    <p className={css.location}>{location}</p>
-  </div>
-
-  <ul className={css.stats}>
-    <li>
-      <span className={css.label}>Followers: </span>
-      <span className={css.quantity}>{followers}</span>
-    </li>
-    <li>
-      <span className={css.label}>Views: </span>
-      <span className={css.quantity}>{views}</span>
-    </li>
-    <li>
-    <span className={css.label}>Likes: </span>
-      <span className={css.quantity}>{likes}</span>
-    </li>
-  </ul>
-</div>
-)
+        <ProfileStatsLabel>Likes: </ProfileStatsLabel>
+        <ProfileStatsQuantity>{likes}</ProfileStatsQuantity>
+      </ProfileStats>
+    </ProfileContainer>
+  );
 }
 
 Profile.propTypes = {
